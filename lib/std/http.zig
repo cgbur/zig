@@ -262,6 +262,7 @@ pub const ContentEncoding = enum {
     deflate,
     gzip,
     zstd,
+    identity,
 };
 
 pub const Connection = enum {
